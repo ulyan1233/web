@@ -1,0 +1,246 @@
+*{
+  padding: 0px; margin: 0px; font-weight: normal;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+/*BAGIAN PERTAMAAAAAA ///// MENU*/
+#pertama{
+  background: url('asset/background.jpg') no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 20px;
+}
+.clear{
+  clear: both;
+}
+.konten{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.kolom_3{
+  width: 300px;
+  float: left;
+}
+.kolom_3tengah{
+  margin: 0 30px;
+}
+#logo{
+  margin:0 65% 0 8% ; display: block; font-size: 25px;
+}
+#menu{
+  background-color: #293e4a;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px; margin-top: 20px;
+}
+#menu a {
+  display: block; text-align: center; color: white;
+}
+#menu a:hover{
+  background-color:rgb(25, 130, 170);
+}
+
+#box_sd{
+  background-color: rgba(39, 58, 69, 0.7);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 80px 0 ;
+  padding: 20px 0;
+}
+#box_sd_2{
+  background-color: rgba(39, 58, 69, 0.7);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 80px 0 ;
+  padding: 20px 0;
+}
+#box_sd  a{
+ display: block;
+ border: 2px solid white;
+ color:  white;
+ padding: 5px 0 ;
+ width: 300px;
+ margin:25px auto 0 auto ;
+}
+#box_sd a:hover{
+  background-color: rgb(61, 96, 108);
+  color:#4bc5da;
+}
+ /** BAGIAN KEDUA //// KONTENYA**/
+ #kedua{
+   background-color: rgba(61, 96, 108);
+   color: white;
+   text-align: center;
+   padding-bottom: 20px;
+ }
+ h2{
+   font-size: 30px;
+   padding: 30px 0 45px 0;
+   width: 200px;
+   margin: 0 auto;
+ }
+ #kedua img{
+   width:250px; height:250px;
+   border-radius: 50%;
+   margin-bottom: 25px;
+ }
+ .setiap_karya_gambar{
+   position: relative;
+ }
+ .isine{
+   position: absolute;
+   top:0px; left: 25px;
+   width: 250px;
+   height: 250px;
+   line-height: 250px;
+   text-align: center; font-size: 25px;
+   background-color: 225,225,225,0.7;
+   color:#ffffff;
+   border-radius: 50%;
+   opacity: 0;
+   transition: 2s;
+ }
+ .setiap_karya_gambar:hover .isine{
+   opacity: 0.7;
+ }
+ .deskripsi{
+   font-size: 22px;
+ }
+/*--IKI BAGIAN KE TIGA SURR--*/
+.kolom_2{
+  float: left;
+  width: 450px;
+  margin: 0 15px;
+}
+#ketiga h2{
+  text-align: center;
+  color: #2a3740;
+}
+#ketiga input, #ketiga textarea{
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 12px;
+  border: 2px solid #2a3740;
+}
+input[type="submit"]{
+  background-color: #2a3740;
+  color: white;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: rgb(107, 133, 139);
+}
+#ketiga textarea{
+  height: 120px;
+}
+
+
+/*---------------BAGIAN SETIAP FOLIO SING GANTI HTML SUR----------------------*/
+#logo2{
+  margin:0 65% 0 8% ; display: block; font-size: 25px; padding-top: 20px;
+}
+#background2{
+  background: url('asset/gambar2.jpg') no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+#box_sd_2  a{
+ display: block;
+ border: 2px solid white;
+ color:  white;
+ padding: 5px 0 ;
+ width: 300px;
+ margin:25px auto 0 auto ;
+}
+#box_sd_2 a:hover{
+ background-color: rgb(61, 96, 108);
+ color:#4bc5da;
+}
+
+
+.panah_box{
+  width: 60px; height: 60px; line-height: 60px;
+  color:rgb(28, 75, 77); background-color: #1f2e37;
+  text-align: center; font-size: 30px;
+  position: absolute;  top: 50%; transform: translateY(-50%);
+}
+.kanan{
+  right: 0;
+}
+.kiri{
+  left: 0;
+}
+.panah_box:hover{
+  cursor: pointer;
+  background-color: rgb(103, 207, 230);
+}
+#karya_box{
+  width: 1000px;
+  height: 200px;
+  margin: 0 20px;
+  background: red;
+  position: relative;
+}
+.panah_box , #karya_box , #karya_box_kr ,{
+  float: left;
+}
+#karya_box_knn{
+  width: 500px; height: 350px;
+  position: relative;
+  margin: auto;
+}
+#karya_box_kr{
+  width: 280; padding: 30px 10px 0 10px;
+  height: 320;
+  background-color: #3a4c57;
+  color: white;
+}
+#karya_box_kr h3{
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#karya_box_knn .deskripsi{
+  font-size: 20px;
+}
+#karya_lainya{
+  width: 450px; margin: 50px auto 0 auto;
+}
+#karya_lainya img{
+  float: left;
+  display: block;
+  width: 140px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+            /*------------ IKI BAGIAN FOOOTERRRR E SURRR----------------*/
+#footer{
+background-color: #293e4a;
+color: white;
+text-align: center;
+padding: 10px 0;
+margin-top: 0px;
+}

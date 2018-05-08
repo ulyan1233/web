@@ -1,0 +1,293 @@
+body{
+  background-size: cover;
+  font-style: tahoma;
+}
+.content2{
+  box-shadow: 0 0 10px black;
+  background-color:white ;
+}
+
+    .row.content {
+      height:auto;
+    }
+
+    #profile{
+      color: white;
+      margin-left: 50px;
+    }
+
+    a:hover{
+      transition: 0.5s;
+      transform: scale(1.5);
+    }
+    a{
+      color: white;
+      transition: 0.5s;
+      font-size: 12pt;
+    }
+
+  .gambar-sejarah{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+  }
+
+  .head h1{
+    transition: 1s;
+  }
+  .head h1:hover{
+    transition: 1s;
+    transform: scale(1.5);
+  }
+  .jumbotron{
+    background-size: 1450px 700px;
+    background-repeat: no-repeat;
+    background-image: url(sawah-1.JPG);
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  .jumbotron img{
+    transition: 1S;
+    margin-left: 450px;
+    width: 300px;
+  }
+  .jumbotron p{
+    transition: 1s;
+    color: white;
+    font-size: 30px;
+  }
+  #gambar-head{
+    width: 300px;
+    margin-right: 450px;
+  }
+  .sejarah{
+
+  }
+/*NAVBAR*/
+a{
+text-decoration: none;
+color: #333;
+}
+#twd-menu{
+background-color: #eaeaea;
+}
+.normal{
+padding: 0;
+margin: 0;
+
+}
+  #twd-menu a{
+    text-decoration: none;
+    padding:10px 70px;
+    border-radius: 10px;
+  }
+    #twd-menu a:hover{
+      text-decoration: none;
+      background:black;
+      color: #fff;
+    }
+
+/* Ketika Di Scroll */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: #0B7271;
+  color: #f8f8f8;
+  transition: top 400ms ease 0s;
+  box-shadow: 0 0 40px #222;
+  background-color:GREY;
+}
+hr{
+  border: 2px solid grey;
+  width:1000px;
+}
+
+.logout{
+  text-decoration-color: none;
+  height: 40px;
+  width: 100px;
+  background: #fff;
+  transform: translate(1200px,-10px);
+  transition: 0.5s;
+}
+.logout:hover{
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
+  text-decoration-color: none;
+  color: white;
+  background: #ffe;
+}
+
+
+.dashboard{
+  text-decoration-color: none;
+  height: 40px;
+  width: 120px;
+  background: #fff;
+  transform: translate(1050px,-70px);
+  transition: 0.5s;
+}
+.dashboard:hover{
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
+  text-decoration-color: none;
+  color: white;
+  background: #ffe;
+}
+
+/*<!--========================
+    BAGIAN GALERI-->*/
+
+#galeri2{
+  background-color: #EAEAEA;
+  color: black;
+  border-top: 10px solid grey;
+}
+
+.GALERI{
+  box-shadow: 0 5px 20PX GREY;
+  background-size: cover;
+  background-color:white;
+}
+.gamgal > img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.gamgal  img{
+  transition: 1s;
+}
+
+#welcome-galeri{
+  transition: 0.5s;
+}
+
+#welcome-galeri:hover{
+  color: white;
+  background-color:#666666;
+  transform:scale(1.3);
+  transition: 1s;
+}
+
+
+.gamgal> img{
+  width:700px;
+  height:400px;
+
+}
+
+.content-columns {
+	list-style:none;
+	column-count: 4;
+  column-gap: 40px;
+}
+
+.bungkus {
+  transition: 0.5s;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	margin-bottom:30px;
+	overflow: hidden;
+ 	display:inline-block;
+	column-break-inside:avoid;
+}
+
+.bungkus:hover{
+  transition: 1s;
+  transform: scale(1.2);
+}
+
+.bungkus a img {
+	width: 100%;
+}
+
+.bungkus img{
+  transition: 0.5s;
+}
+
+.bungkus img:hover{
+  transform:scale(1.2);
+  transition: 1s;
+}
+
+.bungkus .description {
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.bungkus .description h1 {
+	font-size: 16px;
+}
+
+.bungkus .description p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.gambargaleri .bungkus{
+  box-shadow: 0 0 10PX black;
+}
+
+video{
+  padding: 15px;
+  padding-left: 250px;
+}
+
+
+  /*<!--======================
+      BAGIAN WAWANCARA-->*/
+
+      .wawancara{
+        border-top: 10px solid grey;
+        padding-bottom: 100px;
+        box-shadow: 0 0 20px black;
+        background: white;
+      }
+        #spot-wawancara:hover{
+          transform: scale(2) rotate(29deg);
+          transition: 1s;
+        }
+
+        #spot-wawancara{
+          transition: 0.5s;
+        }
+        audio:hover{
+          transition: 3s;
+          transform: scale(1.1);
+        }
+        audio{
+          transition: 2s;
+          margin-left: 400px;
+          border-radius: 15px 15px;
+        }
+
+        /*<!--======================
+            BAGIAN CONTACT-->*/
+            .KOntak{
+              border-top: 15px solid grey;
+              background: #eee;
+              color:black;
+              min-height: 700px;
+            }
+
+            .KOntak h1{
+              margin-left: 550px;
+              text-align: center;
+              width: 180px;
+              border-bottom: 2px solid grey;
+            }
+          footer{
+              padding: 20px;
+              background-color: black
+          }
+
+          footer p{
+            text-align: center;
+            color: white;
+          }

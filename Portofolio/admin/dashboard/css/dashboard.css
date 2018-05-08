@@ -1,0 +1,121 @@
+body{
+  transform: translatey(-15px);
+  padding: 0;
+  margin: 0;
+  font-family: Arial,Helvetica ,sans-serif;
+}
+
+.wrap{
+  background: #f4f4f4;
+  width: 100%;
+  margin: 5px auto;
+}
+
+/*bagian header*/
+.wrap .header{
+  background: #f4f4f4;
+  padding: 2px 5px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+  background: #aaa;
+}
+
+.wrap .menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #35424a;
+  overflow: hidden;
+  border-bottom: 3px solid #e8491d;
+  color: #e8491d;
+}
+
+.wrap .menu ul h1{
+  margin-left: 25px;
+  list-style: none;
+}
+
+.wrap .menu ul li{
+  float: left;
+  list-style: none;
+
+}
+
+table,tr,th,td{
+  border:none;
+}
+
+.menu ul a{
+  text-align: center;
+  border: 1px solid #e8491d;
+  width: 180px;
+  height: 30px;
+  transform: translate(-45px,-40px);
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #e8491d;
+  float: left;
+}
+
+.menu ul a:hover{
+  color: black;
+  background: #e8491d;;
+}
+/*akhir menu*/
+
+.clear{
+  clear: both;
+}
+
+.badan{
+  height: 450px;
+}
+
+
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+  background: #ffffff;
+  float: left;
+  height: 100%;
+}
+.wrap .badan .sidebar ul{
+
+}
+.wrap .badan .sidebar ul,a{
+  position: relative;
+  color:#e8491d;
+  text-decoration: none;
+  list-style:none;
+  text-align: left;
+  margin-top: 20px;
+
+}
+.sidebar a{
+
+}
+.hidup{
+
+	color: white;
+	background-color: #e8491d;
+}
+/*akhir sidebar*/
+
+.wrap .badan .content{
+  background: #eee;
+  float: left;
+  height: 10%;
+  width: 80%;
+}
+
+.wrap .footer{
+  bottom: 0;
+  border-top: 2px solid black;
+  width: 95%;
+  padding: 30px;
+  background: #464e55;
+}
